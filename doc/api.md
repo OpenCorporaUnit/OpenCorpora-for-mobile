@@ -29,4 +29,22 @@ json object, у которого будет только поле "error" с т�
 
 ### actions
 
-в процессе
+welcome
+
+search
+(query)
+
+login
+('login', 'password')
+
+register
+('login', 'passwd', 'passwd_re', 'email')
+
+get_available_morph_tasks
+('user_id')
+
+get_morph_task
+('pool_id', 'size', 'timeout')
+
+save_morph_task
+('user_id', 'answers')
