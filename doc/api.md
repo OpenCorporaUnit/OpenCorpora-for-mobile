@@ -29,24 +29,43 @@ json object, у которого будет только поле "error" с т�
 
 ### actions
 
-welcome
+    параметры:
+    + обязательные
+    * опциональные
 
-search
-(query)
+    "welcome"
 
-login
-('login', 'password')
+    "search"
+    + query
+    * all_forms
 
-register
-('login', 'passwd', 'passwd_re', 'email')
+    "login"
+    + login password
 
-get_available_morph_tasks
-('user_id')
+    "register"
+    + 'login passwd passwd_re email
 
-get_morph_task
-('pool_id', 'size', 'timeout')
+    "all_stat"
 
-save_morph_task
-('user_id', 'answers')
-формат запроса:
-{"user_id" : "3678", "answers": [ {"id": "2449933", "answer":"1"}, {"id": "2450187", "answer":"1"} ]}
+    "get_available_morph_tasks"
+    + user_id
+
+    "get_morph_task"
+    + user_id pool_id size
+
+    "save_morph_task"
+    + user_id answers
+    example.: {"user_id" : "3678", "answers": [ {"id": "2449933", "answer":"1"}, {"id": "2450187", "answer":"1"} ]}
+
+
+    "get_user"
+    + user_id
+
+    "save_user"
+    * shown_name OR email (+ passwd user_id) OR passwd (+old_passwd user_id)
+
+    "user_stat"
+    + user_id
+
+    "grab_badges
+    + user_id
