@@ -48,3 +48,5 @@ get_morph_task
 
 save_morph_task
 ('user_id', 'answers')
+формат запроса:
+{"user_id" : "3678", "answers": [ {"id": "2449933", "answer":"1"}, {"id": "2450187", "answer":"1"} ]}
