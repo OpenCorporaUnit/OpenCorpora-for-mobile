@@ -55,7 +55,7 @@ json object, у которого будет только поле "error" с т�
 
     "save_morph_task"
     + user_id answers
-    example.: {"user_id" : "3678", "answers": [ {"id": "2449933", "answer":"1"}, {"id": "2450187", "answer":"1"} ]}
+    example.: {"user_id" : "3678", "answers": [ ["2449933", "1"], ["2450187", "1"] ]}
 
 
     "get_user"
