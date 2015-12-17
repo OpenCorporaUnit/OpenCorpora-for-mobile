@@ -2,7 +2,7 @@
 http://opencorpora.org/v1.0
 
 ### Request
-POST запрос с двумя полями:
+POST запрос с полями:
 
     action = 'название_метода'  - обязательный
     data = json object          - опциональный
